@@ -12,7 +12,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "enemy",
+    "_name": "exploreNode",
     "_objFlags": 0,
     "_parent": null,
     "_children": [],
@@ -42,8 +42,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 262,
-      "height": 198
+      "width": 21,
+      "height": 21
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -52,14 +52,14 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 193,
-      "y": 365,
+      "x": 262,
+      "y": 214,
       "z": 0
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.6,
-      "y": 0.6,
+      "x": 1,
+      "y": 1,
       "z": 1
     },
     "_rotationX": 0,
@@ -73,7 +73,7 @@
     },
     "_skewX": 0,
     "_skewY": 0,
-    "groupIndex": 1,
+    "groupIndex": 0,
     "_id": ""
   },
   {
@@ -87,7 +87,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "c507bde7-dedd-4e9b-9ed5-4240ed57cab9"
+      "__uuid__": "7c8ed3c3-7595-43ec-94ac-46b0c527ee8b"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -102,41 +102,37 @@
     "_isTrimmedMode": true,
     "_state": 0,
     "_atlas": {
-      "__uuid__": "e3b7cfc4-77c6-4cdf-8a94-3f2f20b55315"
+      "__uuid__": "72a4247c-4d8c-4787-923d-cb37b15f0021"
     },
     "_id": ""
   },
   {
-    "__type__": "cc.BoxCollider",
+    "__type__": "cc.Animation",
     "_name": "",
     "_objFlags": 0,
     "node": {
       "__id__": 1
     },
     "_enabled": true,
-    "tag": 0,
-    "_offset": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
+    "_defaultClip": {
+      "__uuid__": "9030902e-fab3-4a80-b45a-2f7af0d8c888"
     },
-    "_size": {
-      "__type__": "cc.Size",
-      "width": 262,
-      "height": 198
-    },
+    "_clips": [
+      {
+        "__uuid__": "9030902e-fab3-4a80-b45a-2f7af0d8c888"
+      }
+    ],
+    "playOnLoad": false,
     "_id": ""
   },
   {
-    "__type__": "ec8508/8zhM0q3F2eKlL01o",
+    "__type__": "282786pIYxPy5E12n9GmO2+",
     "_name": "",
     "_objFlags": 0,
     "node": {
       "__id__": 1
     },
     "_enabled": true,
-    "enumVa": 1,
-    "speed": 100,
     "_id": ""
   },
   {
@@ -145,9 +141,9 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "65e4057a-89c0-4e69-a924-b8236c890b5d"
+      "__uuid__": "e52b1564-a182-47e8-b8fd-590924b52501"
     },
-    "fileId": "adCokiyQpJ7LZr9oCc0EBf",
+    "fileId": "02J3fEJvtGCq3+5JFFJrPP",
     "sync": false
   }
 ]

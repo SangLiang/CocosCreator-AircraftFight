@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "bulletExplore",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.375,
+  "sample": 16,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "1e95f535-39ed-4182-89c6-9fd2f7fb467e"
+            }
+          },
+          {
+            "frame": 0.0625,
+            "value": {
+              "__uuid__": "4b36ff10-ea11-41ee-9cf9-7e1866428cb9"
+            }
+          },
+          {
+            "frame": 0.125,
+            "value": {
+              "__uuid__": "e4d27e38-de28-461f-9649-0499caeee41f"
+            }
+          },
+          {
+            "frame": 0.1875,
+            "value": {
+              "__uuid__": "73e7e0aa-ca00-4ad1-8779-fc7809b35805"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "76938e10-9251-4a3b-8087-0fdf82881a8e"
+            }
+          },
+          {
+            "frame": 0.3125,
+            "value": {
+              "__uuid__": "7c8ed3c3-7595-43ec-94ac-46b0c527ee8b"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.375,
+      "func": "playoff",
+      "params": []
+    }
+  ]
+}
