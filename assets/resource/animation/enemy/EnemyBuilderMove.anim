@@ -1,0 +1,25 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "EnemyBuilderMove",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.8333333333333334,
+  "sample": 12,
+  "speed": 1,
+  "wrapMode": "38",
+  "curveData": {
+    "props": {
+      "x": [
+        {
+          "frame": 0,
+          "value": -355.8333333333333
+        },
+        {
+          "frame": 0.8333333333333334,
+          "value": 185
+        }
+      ]
+    }
+  },
+  "events": []
+}

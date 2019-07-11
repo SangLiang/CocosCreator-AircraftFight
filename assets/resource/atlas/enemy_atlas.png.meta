@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "8099ab75-9f24-429d-ac6f-19137b3eccad",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "enemy_atlas": {
+      "ver": "1.0.4",
+      "uuid": "1ba9f48c-5b84-44b1-b68c-3743d6a6637b",
+      "rawTextureUuid": "8099ab75-9f24-429d-ac6f-19137b3eccad",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 3,
+      "width": 512,
+      "height": 709,
+      "rawWidth": 512,
+      "rawHeight": 715,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
