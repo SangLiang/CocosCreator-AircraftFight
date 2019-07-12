@@ -35,9 +35,10 @@ export default class Bullet extends cc.Component {
 
     move(dt) {
 
-        if(this.node.y >= 780){
+        if(this.node.y >= 780 || this.node.y <= -800){
             this.node.destroy();
         }
+        
         this.node.y += this.speed * dt;
        
     }

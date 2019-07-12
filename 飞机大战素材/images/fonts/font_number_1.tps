@@ -6,7 +6,7 @@
         <key>texturePackerVersion</key>
         <string>4.4.0</string>
         <key>fileName</key>
-        <string>/Users/sangliangdebijiben/Documents/work/game/AirForce/飞机大战素材/images/bullet/bullet.tps</string>
+        <string>/Users/sangliangdebijiben/Documents/work/game/AirForce/飞机大战素材/images/fonts/font_number_1.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -104,7 +104,7 @@
         <key>algorithmSettings</key>
         <struct type="AlgorithmSettings">
             <key>algorithm</key>
-            <enum type="AlgorithmSettings::AlgorithmId">MaxRects</enum>
+            <enum type="AlgorithmSettings::AlgorithmId">Basic</enum>
             <key>freeSizeMode</key>
             <enum type="AlgorithmSettings::AlgorithmFreeSizeMode">Best</enum>
             <key>sizeConstraints</key>
@@ -150,7 +150,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>bullet.plist</filename>
+                <filename>font_number_1.plist</filename>
             </struct>
             <key>header</key>
             <key>source</key>
@@ -205,177 +205,65 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">bullet1.png</key>
+            <key type="filename">0.png</key>
+            <key type="filename">2.png</key>
+            <key type="filename">4.png</key>
+            <key type="filename">6.png</key>
+            <key type="filename">7.png</key>
+            <key type="filename">9.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>4,26,8,52</rect>
+                <rect>5,6,10,12</rect>
                 <key>scale9Paddings</key>
-                <rect>4,26,8,52</rect>
+                <rect>5,6,10,12</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">bullet10.png</key>
+            <key type="filename">1.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>5,15,11,29</rect>
+                <rect>4,6,8,12</rect>
                 <key>scale9Paddings</key>
-                <rect>5,15,11,29</rect>
+                <rect>4,6,8,12</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">bullet11.png</key>
+            <key type="filename">3.png</key>
+            <key type="filename">5.png</key>
+            <key type="filename">8.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>8,16,16,32</rect>
+                <rect>5,6,9,12</rect>
                 <key>scale9Paddings</key>
-                <rect>8,16,16,32</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">bullet12.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>5,14,10,28</rect>
-                <key>scale9Paddings</key>
-                <rect>5,14,10,28</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">bullet2.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>11,40,22,81</rect>
-                <key>scale9Paddings</key>
-                <rect>11,40,22,81</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">bullet3.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>8,27,17,53</rect>
-                <key>scale9Paddings</key>
-                <rect>8,27,17,53</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">bullet4.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>7,25,15,49</rect>
-                <key>scale9Paddings</key>
-                <rect>7,25,15,49</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">bullet5.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>9,13,19,26</rect>
-                <key>scale9Paddings</key>
-                <rect>9,13,19,26</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">bullet6.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>11,10,21,21</rect>
-                <key>scale9Paddings</key>
-                <rect>11,10,21,21</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">bullet7.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>9,9,19,19</rect>
-                <key>scale9Paddings</key>
-                <rect>9,9,19,19</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">bullet8.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>7,12,14,24</rect>
-                <key>scale9Paddings</key>
-                <rect>7,12,14,24</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">bullet9.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>9,9,17,19</rect>
-                <key>scale9Paddings</key>
-                <rect>9,9,17,19</rect>
+                <rect>5,6,9,12</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
         </map>
         <key>fileList</key>
         <array>
-            <filename>bullet1.png</filename>
-            <filename>bullet2.png</filename>
-            <filename>bullet3.png</filename>
-            <filename>bullet4.png</filename>
-            <filename>bullet5.png</filename>
-            <filename>bullet6.png</filename>
-            <filename>bullet7.png</filename>
-            <filename>bullet8.png</filename>
-            <filename>bullet9.png</filename>
-            <filename>bullet10.png</filename>
-            <filename>bullet11.png</filename>
-            <filename>bullet12.png</filename>
+            <filename>0.png</filename>
+            <filename>1.png</filename>
+            <filename>2.png</filename>
+            <filename>3.png</filename>
+            <filename>4.png</filename>
+            <filename>5.png</filename>
+            <filename>6.png</filename>
+            <filename>7.png</filename>
+            <filename>8.png</filename>
+            <filename>9.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
@@ -384,7 +272,7 @@
         <key>ignoredWarnings</key>
         <array/>
         <key>commonDivisorX</key>
-        <uint>1</uint>
+        <uint>2</uint>
         <key>commonDivisorY</key>
         <uint>1</uint>
         <key>packNormalMaps</key>

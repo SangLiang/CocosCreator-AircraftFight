@@ -6,7 +6,7 @@ export default class EnemyBuilder extends cc.Component {
     @property(cc.Prefab)
     enemy:cc.Node = null;
 
-    private timer:number = 2.2;
+    private timer:number = 1.9;
     buildAircraft(){
         var enemy:cc.Node = cc.instantiate(this.enemy);
         enemy.setParent(cc.find('Canvas'));
