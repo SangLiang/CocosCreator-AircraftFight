@@ -138,7 +138,9 @@
       "__id__": 1
     },
     "_enabled": true,
-    "enumVa": 1,
+    "exploreNode": {
+      "__uuid__": "40086355-e5a9-4c1f-acc4-db1d1f8884b7"
+    },
     "speed": 100,
     "_id": ""
   },

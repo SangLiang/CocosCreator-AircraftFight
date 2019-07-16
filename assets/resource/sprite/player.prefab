@@ -21,7 +21,7 @@
       }
     ],
     "_active": true,
-    "_level": 1,
+    "_level": 2,
     "_components": [
       {
         "__id__": 8
@@ -312,12 +312,12 @@
     "_offset": {
       "__type__": "cc.Vec2",
       "x": 0,
-      "y": -45
+      "y": -67.7
     },
     "_size": {
       "__type__": "cc.Size",
       "width": 484,
-      "height": 200
+      "height": 154.5
     },
     "_id": ""
   },

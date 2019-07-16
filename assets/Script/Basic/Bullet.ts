@@ -9,7 +9,6 @@ export default class Bullet extends cc.Component {
     private hp: number = 1;
     private speed: number = 400;
 
-
     public setAttack(attack: number) {
         this.attack = attack;
     }
@@ -23,7 +22,6 @@ export default class Bullet extends cc.Component {
         if (this.hp <= 0) {
             this.explore();
             this.node.destroy();
-            
         }
     }
 
